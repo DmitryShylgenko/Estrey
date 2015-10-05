@@ -1,0 +1,75 @@
+#main{
+	padding-top: 20px;
+}
+#main p{
+	font: 24px Calibri, Georgia, serif;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 16px;
+}
+#main p strong{
+	font-weight: bold;
+}
+#main a{
+	text-decoration: none;
+	color: #fff;
+}
+#main ul{
+	margin: 0 0 38px 390px;
+}
+#main li{
+	background-color: rgba(5,23,39,0.85);
+	display: inline;
+	list-style: none;
+	float: left;
+}
+#main li:first-child,
+#main li:last-child{
+	border-top: 1px solid #243a4e;
+	border-bottom: 1px solid #243a4e;
+	border-right: 1px solid #243a4e;
+}
+#main li:first-child{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: 1px solid #243a4e;
+}
+#main li:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#main li a{
+	padding: 9px 22px;
+	height: 15px;
+	display: inline-block;
+}
+#main li:hover{
+	background: #17446c;
+}
+#main>div{
+	clear: both;
+}
+#main section{
+	padding: 40px 0 0;
+}
+#main section a{
+	text-transform: uppercase;
+}
+.col-holder{
+	text-align: center;
+}
+.col{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: 0 -4px 0 0;
+}
+.col a{
+	margin-left: 170px;
+}
+.col a:last-child{
+	margin-left: 61px;
+}
+.col.big{
+	width: 40%;
+}

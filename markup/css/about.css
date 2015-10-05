@@ -1,0 +1,27 @@
+#main{
+	padding-top: 81px;
+	padding-bottom: 81px;
+}
+#main section{
+	background: rgba(0,0,2,0.5);
+	border-radius: 5px;
+	padding: 18px 20px;
+}
+#main section:first-child{
+	margin-bottom: 20px;
+}
+#main img{
+	float: right;
+	padding: 2px 0 0 20px;
+}
+#main section h2, #main section p{
+	color: #fff;
+	font-family: Calibri, Georgia, serif;
+}
+#main section h2{
+	font-size: 24px;
+}
+#main section p{
+	font-size: 14px;
+	margin: 20px 0 0;
+}
